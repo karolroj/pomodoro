@@ -12,7 +12,7 @@ class Timer extends React.Component {
   render() {
     const formatedTime = this.formatTime(this.props.timeLeft);
     return (
-      <div>
+      <div className="fs-1 fw-bold mt-1">
         <div id="timer-label">{this.props.status}</div>
         <div id="time-left">{formatedTime}</div>
       </div>
